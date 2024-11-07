@@ -8,7 +8,7 @@ public class Bill3 {
 		String dinnerBill = args[3];
 		int finalBill = Integer.parseInt(dinnerBill);
 		double divided = Math.ceil(finalBill/3);
-		System.out.println("Hello "+ name1 + ", " + name2 + " and " + name3 + ". " + "each one of you need to pay" + divided);
+		System.out.println("Dear "+ name1 + ", " + name2 + " and " + name3 + ": " + "pay " + divided+ " shekels each ");
 	    // Replace this comment with the rest of your code   
 		// System.out.println("hello world");
     }
